@@ -1,0 +1,33 @@
+ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+ul li {
+	font-family:Arial, Helvetica, geneva;
+	float: left;
+	width:164px;
+	height:25px;
+	background-color: #BF543D;
+	opacity: .8;
+	line-height:25px;
+	text-align:center;
+	font-size:16px;
+	margin-right:2px;
+	border:1px solid #333;
+}
+ul li a {
+	text-decoration:none;
+	color:black;
+	display:block;
+	border:1px solid #333;
+}
+ul li a:hover {
+	background:#E19942;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}

@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#DE7979;
+}
+.contenedor{
+	background:#ccc;
+	width:90%;
+	height:100%;
+	margin:auto;
+	max-width:1000px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+header{
+	background:#2c3e51;
+	width:100%;
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+}
+header #logo{
+	color:white;
+	font-size:30px;
+}
+header nav a {
+	color:white;
+	text-decoration:none;
+}
